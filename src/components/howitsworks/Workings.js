@@ -6,7 +6,7 @@ function Workings() {
   const flag = true;
   return (
     <div className="app__working">
-      <div className="overlay"></div>
+      <div className="overlay1"></div>
       <div className="container">
         <div className="working-title">
           <Heading
