@@ -3,12 +3,12 @@ import "./footer.css";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 import FooterList from "./FooterList";
 function Footer() {
-  const header = ["explore", "quick links", "catogaries", "have a question"];
+  const header = ["explore", "quick links", "catogries", "have a question"];
   return (
     <div className="app__footer">
       <div className="container">
         {" "}
-        <div className="row g-md-3 g-sm-5">
+        <div className="row g-md-3 g-5">
           <div className="about col-lg col-md-6">
             <div className="name">
               {" "}

@@ -16,3 +16,8 @@
 .color_white {
   color: #fff;
 }
+@media (max-width: 520px) {
+  .heading {
+    font-size: 2rem;
+  }
+}

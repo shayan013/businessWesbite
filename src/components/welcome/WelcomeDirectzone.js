@@ -7,7 +7,7 @@ function WelcomeDirectzone() {
   return (
     <div className="app__welcome">
       <div className="container">
-        <div className="row g-0">
+        <div className="row">
           <div className="col-lg-4 col-md-12">
             <div className="welcome-image"></div>
           </div>

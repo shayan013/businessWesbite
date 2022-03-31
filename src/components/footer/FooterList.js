@@ -89,10 +89,10 @@ function FooterList({ header }) {
             </ul>
           </>
         )}
-        {header == "catogaries" && (
+        {header == "catogries" && (
           <>
             {" "}
-            <h2 className="header">catogaries</h2>
+            <h2 className="header">catogries</h2>
             <ul className="list">
               <a href="#">
                 <li>

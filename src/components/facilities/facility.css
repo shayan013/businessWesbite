@@ -3,6 +3,7 @@
   border-radius: 4px;
   padding: 30px;
   transition: 0.5s all ease-in;
+  height: 100%;
 }
 
 .facility-icon {

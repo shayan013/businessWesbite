@@ -19,7 +19,7 @@
 .banner-image {
   background-image: url("https://preview.colorlib.com/theme/directone/images/xintro.jpg.pagespeed.ic.0xEOkscWMx.webp");
   background-position: center;
-
+  background-size: cover;
   height: 100%;
 }
 .content_titles .specialOffers {
@@ -42,4 +42,13 @@
   font-family: var(--fontfamily);
   line-height: 1.5;
   color: #fff;
+}
+@media (max-width: 520px) {
+  .content_titles h1 {
+    font-size: 1.4rem;
+  }
+
+  .button_specialOffer .btn {
+    font-size: 12px;
+  }
 }

@@ -9,7 +9,7 @@ function Listing() {
         <div className="app__titles">
           <Heading smallHeading="listing" bigHeading="our listing" />
         </div>
-        <div className=" row app__cards  g-5">
+        <div className=" row g-2 app__cards">
           <Card />
           <Card />
           <Card />

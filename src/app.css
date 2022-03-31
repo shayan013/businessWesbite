@@ -1,1 +1,8 @@
-
+@media (max-width: 576px) {
+  .container {
+    width: 95%;
+  }
+  .app {
+    min-width: 100%;
+  }
+}
