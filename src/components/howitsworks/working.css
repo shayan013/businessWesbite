@@ -1,0 +1,15 @@
+.app__working {
+  position: relative;
+  padding: 8rem 0;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: -1;
+  background: url("https://preview.colorlib.com/theme/directone/images/curls.png.webp");
+
+  opacity: 1;
+}

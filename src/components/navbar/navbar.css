@@ -1,0 +1,90 @@
+.icon_compass {
+  font-size: 40px;
+  color: #ff414d;
+  margin-right: 5px;
+  align-items: center;
+  display: block;
+  margin-top: -10px;
+}
+
+.app__navbar {
+  position: absolute;
+  background: transparent !important;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  z-index: 3;
+  width: 90%;
+}
+.navbar-dark span {
+  border: none !important;
+  font-size: 30px;
+}
+
+.link {
+  color: rgba(255, 255, 255, 0.7) !important;
+  text-transform: uppercase;
+  font-family: var(--fontfamily);
+  font-size: 13px;
+  padding: 0.5rem 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.navbar-nav {
+  gap: 1.4rem;
+}
+.brand_title {
+  color: #fff;
+  line-height: 1.1;
+  display: block;
+  font-weight: 900;
+  font-size: 31px;
+  font-family: var(--fontfamily);
+}
+
+.navbar-collapse {
+  gap: 1rem;
+  justify-content: flex-end;
+}
+.brand_title small {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 11px;
+}
+/* add listing button */
+.add_listing {
+  background: #ff414d !important;
+  border: 1px solid #ff414d !important;
+  color: #fff !important;
+  padding: 0.5rem 12px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+
+  text-transform: uppercase;
+
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 0.25rem !important;
+}
+.add_listing:hover {
+  background: #f66872 !important;
+}
+
+@media (max-width: 980px) {
+  .app__navbar {
+    background: #151c26 !important;
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 7px 0;
+  }
+  .link {
+    color: #fff !important;
+  }
+  .add_listing {
+    width: 150px;
+  }
+}

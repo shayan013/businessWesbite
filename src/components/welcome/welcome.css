@@ -1,0 +1,23 @@
+.app__welcome {
+  background-color: #f0f4f7 !important;
+  padding: 7rem 0;
+}
+
+.welcome-content {
+  padding: 5rem 2.5rem;
+
+  background-color: #fff;
+}
+.welcome-content .para1 {
+  margin-top: -0.9rem;
+}
+.para1,
+.para2 {
+  color: #999;
+}
+.welcome-image {
+  background: url("https://preview.colorlib.com/theme/directone/images/xabout.jpg.pagespeed.ic.TFuz3vcahY.webp")
+    no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+}

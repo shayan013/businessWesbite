@@ -1,0 +1,36 @@
+.list {
+  list-style: none;
+
+  padding-left: 0;
+  font-family: var(--fontfamily);
+}
+.header {
+  font-family: var(--fontfamily);
+  font-weight: 700;
+  margin-bottom: 40px;
+  margin-left: 5px;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+.icon_arrow {
+  color: #ffffffb3;
+  font-size: 1.4rem;
+  margin-right: 3px;
+}
+.list a {
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: #ffffffb3;
+}
+.list li {
+  margin-bottom: 10px;
+}
+
+.icon_last_col {
+  width: 40px;
+  font-size: 15px;
+  padding-top: 2px;
+  color: #ff414d !important;
+  margin-right: 20px;
+}

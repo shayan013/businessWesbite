@@ -1,0 +1,35 @@
+.app__footer {
+  background: #10151c;
+  padding: 7rem 0;
+  color: #fff;
+}
+.name span {
+  font-size: 31px;
+  font-family: var(--fontfamily);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.fb_icon,
+.twitter_icon,
+.insta_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+  background: #ff414d;
+}
+.name {
+  margin-bottom: 40px;
+}
+.name small {
+  display: block;
+  font-family: var(--fontfamily);
+  font-size: 11px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}

@@ -1,0 +1,18 @@
+.subheading {
+  font-size: 0.9rem;
+  color: #ff414d;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: var(--fontfamily);
+}
+
+.heading {
+  font-size: 3.1rem;
+  font-family: var(--fontfamily);
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.color_white {
+  color: #fff;
+}
