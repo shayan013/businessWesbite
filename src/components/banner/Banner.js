@@ -5,7 +5,7 @@ function Banner() {
   return (
     <div className="app__banner">
       <div className="container">
-        <div className="row">
+        <div className="row g-0">
           <div className="col-lg-4 col-sm-12">
             <div className="banner-image"></div>
           </div>

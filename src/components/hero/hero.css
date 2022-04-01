@@ -14,7 +14,6 @@
 
   opacity: 0.3;
   background: #000;
-  z-index: -1;
 }
 .slider-text {
   height: 100vh;
@@ -24,7 +23,7 @@
 .slider-text h1 {
   font-weight: 700;
   color: #fff;
-  font-size: 64px;
+  font-size: 60px;
   line-height: 1.2;
   font-family: var(--fontfamily);
 }

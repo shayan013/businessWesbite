@@ -11,15 +11,18 @@
   position: absolute;
   background: transparent !important;
   top: 50px;
-  left: 50%;
-  transform: translate(-50%, 0);
+  left: 0;
 
+  padding: 0;
   z-index: 3;
-  width: 90%;
+  right: 0;
 }
+
 .navbar-dark span {
   border: none !important;
   font-size: 30px;
+  box-shadow: none !important;
+  outline: none !important;
 }
 
 .link {
@@ -27,12 +30,13 @@
   text-transform: uppercase;
   font-family: var(--fontfamily);
   font-size: 13px;
-  padding: 0.5rem 25px;
+  padding: 1.2rem 25px;
   font-weight: 700;
-  letter-spacing: 2px;
+  text-decoration: none;
+  letter-spacing: 1px;
 }
-.navbar-nav {
-  gap: 1.4rem;
+.link:hover {
+  text-decoration: none;
 }
 .brand_title {
   color: #fff;
@@ -43,10 +47,6 @@
   font-family: var(--fontfamily);
 }
 
-.navbar-collapse {
-  gap: 1rem;
-  justify-content: flex-end;
-}
 .brand_title small {
   display: block;
   text-transform: uppercase;
@@ -64,7 +64,7 @@
   font-weight: 600;
 
   text-transform: uppercase;
-
+  margin-left: 2rem;
   letter-spacing: 1px;
   cursor: pointer;
   border-radius: 0.25rem !important;
@@ -86,6 +86,8 @@
   }
   .add_listing {
     width: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
   }
 }
 

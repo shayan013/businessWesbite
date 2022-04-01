@@ -10,7 +10,7 @@ function Hero() {
       <div className="container">
         {" "}
         <div className="row justify-content-center align-items-center slider-text">
-          <div className="col-lg-8 text-center pb-5">
+          <div className="col-lg-9 text-center pb-5">
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <h1>Let's Explore Your Awesome City</h1>
