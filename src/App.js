@@ -9,7 +9,7 @@ import WelcomeDirectzone from "./components/welcome/WelcomeDirectzone";
 import Testimonials from "./components/testimonials/Testimonials";
 import Workings from "./components/howitsworks/Workings";
 import Footer from "./components/footer/Footer";
-import { BrowserRouter, Route, Link, Routes } from "react-router-dom";
+import { HashRouter, Route, Link, Routes } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Listings from "./pages/Listings";
@@ -18,7 +18,7 @@ import "./app.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route
           exact
@@ -77,7 +77,7 @@ function App() {
           }
         ></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
