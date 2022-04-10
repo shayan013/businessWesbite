@@ -8,15 +8,15 @@
 }
 
 .app__navbar {
-  position: absolute;
-  background: transparent !important;
-  top: 50px;
-  left: 0;
+ background-color: #151c26;
+ padding: 1rem 0;
+ 
 
-  padding: 0;
-  z-index: 3;
-  right: 0;
+ 
+
+ 
 }
+
 
 .navbar-dark span {
   border: none !important;

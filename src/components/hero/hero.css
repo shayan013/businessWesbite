@@ -3,15 +3,15 @@
     no-repeat center center/cover;
   height: 100vh;
   position: relative;
-  z-index: -1;
+z-index: -11;
   min-height: 750px;
-  background-attachment: fixed;
+  
 }
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
-
+z-index: -111;
   opacity: 0.3;
   background: #000;
 }
